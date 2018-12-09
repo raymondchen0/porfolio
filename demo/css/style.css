@@ -565,17 +565,49 @@ font-weight: 400 !;
     stroke-width: 4px;
   }
 }
-#mail {
-  padding-bottom: 2%;
-  position: absolute;
-  background-image: url("/demo/img/gmail.png");
-  /* background-size: cover; */
-  width: 10%;
-  height: auto;
-  top: 180%;
-
+#contacts {
+  width: 50%;
+  
 }
-#linkedin {
+#mail img {
+  max-width: 100px !important;
+  max-height: auto;
+  position: absolute;
+  top: 200%;
+  left: 25%;
+  cursor: pointer;
+  filter: saturate(5%);
+  transition-duration: 0.3s;
+}
+#mail:hover img {
+  filter: saturate(100%);
+}
+#gitHub img {
+  filter: saturate(5%);
+  transition-duration: 0.3s;
+  cursor: pointer;
+  max-width: 100px !important;
+  max-height: auto;
+  position: absolute;
+  top: 200%;
+  left: 50%
+}
+#gitHub:hover img {
+  filter: saturate(100%);
+}
+#linkedin img {
+  padding-bottom: 800px;
   position: absolute;
   color: aqua;
+  max-width: 100px !important;
+  max-height: auto;
+  position: absolute;
+  top: 200%;
+  left: 75%;
+  cursor: pointer;
+  filter: saturate(5%);
+  transition-duration: 0.3s;
+}
+#linkedin:hover img {
+  filter: saturate(100%);
 }
