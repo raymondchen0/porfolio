@@ -233,9 +233,18 @@ font-weight: 400 !;
     background:rgb(0, 42, 126); 
     color:rgb(255, 255, 255);
 }
+#about {
+  position: relative;
+  left: -40.5%;
+  top: -100%;
+  width: 19%;
+  height: 10%;
+  text-align: left;
+  float: right;
+}
 
-/* AOS TEST */
-.itemcontainer {
+/* porfolio images */
+#portfolio_images {
   display: flex;
   flex-wrap: wrap;
   position: absolute;
@@ -284,7 +293,7 @@ font-weight: 400 !;
   margin-top: 100px;
   filter: saturate(40%) opacity(40%);
   background-size: cover;
-  background-image: url("/demo/img/bodoni\ 6.3.jpg");
+  background-image: url("/demo/img/bodoni.jpg");
 }
 #item2:hover {
   transition: .3s;
@@ -451,9 +460,8 @@ font-weight: 400 !;
 }
 #quote {
   color: #b700ff;
-  position: absolute;
-  left: 41.25%;
-  top: 60%;
+  position: relative;
+  left: -7.75%;
 }
 /* * HOVER */ */
 .svg-wrapper {
@@ -558,7 +566,14 @@ font-weight: 400 !;
   }
 }
 #mail {
+  padding-bottom: 2%;
   position: absolute;
+  background-image: url("/demo/img/gmail.png");
+  /* background-size: cover; */
+  width: 10%;
+  height: auto;
+  top: 180%;
+
 }
 #linkedin {
   position: absolute;
