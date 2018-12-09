@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en" class="no-js"></html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Raymond Chen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <!-- remember, jQuery is completely optional -->
+  <script type='text/javascript' src='../jquery.particleground.js'></script>
+  <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script>
+  <script type='text/javascript' src='js/demo.js'></script>
+  <script type='text/javascript' src='js/aos.js'></script>
+ 
+</head>
+
+<body>
+    <section class="header">
+        <div class="overlay">
+            <div class="row">
+               <div class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                        <div class="navlogo col-lg-2">
+                            <!-- <a class="navbar-brand" href="#">Name</a> -->
+                        </div>
+                      
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                      
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <div class="col-lg-8">
+                                  <ul class="nav navbar-nav nav-links">
+                                     <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#"></a></li>
+                                    <!-- <li><a href="#">Elements</a></li> -->
+                                 
+                                  </ul>
+                                </div>
+                                
+                            <div class="col-lg-2 right">
+                                 <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#"><i class="fa fa-search fa-2x"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-shopping-cart fa-2x"></i></a></li>
+                                     
+                                </ul>
+                            </div>
+                          
+                        </div>
+                     
+
+                  </div>
+             </div>
+            
+            
+            </div>
+     
+        </div>
+    </section>
+<div class="container">
+  <span class="circle">
+    <i class="fa fa-arrow-down"></i>
+  </span>
+  <span class="pulse"></span>
+</div>
+<div class="svg-wrapper">
+        <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+          <rect class="shape" height="60" width="320" />
+        </svg>
+         <div class="text">SCROLL</div>
+      </div>
+<div id="particles">
+  <div id="intro">
+    
+    <h1 data-aos="fade-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">Raymond</h1 >
+   <div id="quote"><p>Porfolio Site</p></div> 
+
+  </div>
+</div>
+
+<!-- Portfolio images -->
+<div class="itemcontainer">
+    <div class="animated infinite pulse slower portfolio"><h1 data-aos="zoom-in-up">PORTFOLIO</h1></div>
+<div id="item" data-aos="zoom-in-down">
+    <img id="itemtest" src="/demo/img/poster1.jpg" alt="test" style="width:100%;max-width:300px">
+</div>
+<div id="item1" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" data-aos-easing="ease-in-sine" data-aos-duration="700">
+  <img id="itemtest1" src="/demo/img/headphones.jpg" alt="test" style="width:100%;max-width:300px">
+</div>
+<div id="item2" data-aos="zoom-in-up">
+  <img id="itemtest2" src="/demo/img/poster2.png" alt="Poster1" style="width:100%;max-width:300px">
+</div>
+<div class="item3" data-aos="zoom-in-up">1</div>
+<div class="item4" data-aos="zoom-in-up">2</div>
+<div class="item5" data-aos="zoom-in-up">3</div>
+</div>
+<!-- contact -->
+<div class="animated infinite pulse slower aboutMe"><h1 data-aos="zoom-in-down">Contact</h1></div>
+<div id="mail"><img src="img/maill.svg" alt="Email"></div>
+<div id="linkedin"><img src="img/linkedIn.svg" alt="LinkedIn"></div>
+<!-- Trigger the Modal -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+<script type='text/javascript' src='js/modal.js'></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
