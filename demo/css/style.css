@@ -265,6 +265,7 @@ font-weight: 400 !;
   height: 360px;
   margin-top: 100px;
   filter: saturate(40%) opacity(40%);
+  background-size: cover;
   background-image: url("/demo/img/headphones.jpg")
 }
 #item1:hover {
@@ -282,7 +283,8 @@ font-weight: 400 !;
   height: 360px;
   margin-top: 100px;
   filter: saturate(40%) opacity(40%);
-  background-image: url("/demo/img/poster2.png")
+  background-size: cover;
+  background-image: url("/demo/img/bodoni\ 6.3.jpg");
 }
 #item2:hover {
   transition: .3s;
@@ -293,41 +295,60 @@ font-weight: 400 !;
 #itemtest2 {
   display: none;
 }
-.item3 {
+#item3 {
 
   width: 32%;
   height: 360px;
-  margin: 0 auto auto 2%;
+  margin-left: 2%;
   padding-top: 75px;
-  background: rgb(19, 52, 54);
-  text-align: center;
-  color: #FFF;
-  font-size: 3em;
-  
+  filter: saturate(40%) opacity(40%);
+  background-image: url("/demo/img/DATA\ Final\ 2.jpg");
+  background-size: cover; 
 }
-.item4 {
-
+#item3:hover {
+  transition: .3s;
+  filter: saturate(100%) opacity(100%);
+ transition-timing-function: ease-in-out;
+ cursor: pointer;
+}
+#itemtest3 {
+  display: none;
+}
+#item4 {
   width: 32%;
   height: 360px;
-  margin: 0 auto;
   padding-top: 75px;
-  background: rgb(7, 234, 255);
-  text-align: center;
-  color: #FFF;
-  font-size: 3em;
-  
+  filter: saturate(40%) opacity(40%);
+  background-image: url("/demo/img/Hot\ Glue\ Gun\ Manual.jpg");
+  background-size: cover; 
 }
-.item5 {
+#item4:hover {
+  transition: .3s;
+  filter: saturate(100%) opacity(100%);
+ transition-timing-function: ease-in-out;
+ cursor: pointer;
+}
+#itemtest4 {
+  display: none;
+}
+#item5 {
 
   width: 32%;
   height: 360px;
   margin: 0 2% auto auto;
   padding-top: 75px;
-  background: rgb(17, 131, 139);
-  text-align: center;
-  color: #FFF;
-  font-size: 3em;
-  
+  filter: saturate(40%) opacity(40%);
+  background-image: url("/demo/img//nano\ silk.jpg");
+  background-size: cover; 
+}
+#item5:hover {
+  transition: .3s;
+  filter: saturate(100%) opacity(100%);
+ transition-timing-function: ease-in-out;
+ cursor: pointer;
+}
+#itemtest5 {
+  display: none;
 }
 /* button hover css */
 /* Style the Image Used to Trigger the Modal */
