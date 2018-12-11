@@ -106,6 +106,9 @@ body {
   top: 40%;
   left: 75%;
   background-color: #7700c7;
+  background-image: url(/demo/img/profpic2.jpg);
+  background-size: cover;
+  transform: rotate(90deg);
 }
 h1 {
   text-transform: uppercase;
