@@ -100,15 +100,15 @@ body {
 }
 .profpic {
 	border-radius: 50%;
-	width: 300px;
-  height: 300px;
+	width: 350px;
+  height: 350px;
   position: absolute;
-  top: 40%;
-  left: 75%;
+  top: 30%;
+  left: 80%;
   background-color: #7700c7;
   background-image: url(/demo/img/profpic2.jpg);
   background-size: cover;
-  transform: rotate(90deg);
+  z-index: -1;
 }
 h1 {
   text-transform: uppercase;
@@ -129,27 +129,7 @@ p {
   margin: 0 0 30px 0;
   font-size: 24px;
 }
-.btn {
-  display: inline-block;
-  padding: 15px 30px;
-  border: 2px solid #fff;
-  text-transform: uppercase;
-  letter-spacing: 0.015em;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1;
-  color: #fff;
-  text-decoration: none;
-  -webkit-transition: all 0.4s;
-     -moz-transition: all 0.4s;
-       -o-transition: all 0.4s;
-          transition: all 0.4s;
 }
-.btn:hover {
-  color: #005544;
-  border-color: #005544;
-}
-
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 70px;
@@ -229,12 +209,12 @@ font-weight: 400 !;
 
 .header .navbar-default .navbar-nav>li>a {
  font-size:20px; 
- color:rgb(240, 240, 240); 
+ color:rgb(255, 255, 255); 
   border-bottom: 1px solid transparent
   
 }
 .header .navbar-default .navbar-nav>li:hover a{
-  color: rgb(236, 142, 255);
+  color: rgb(223, 223, 223);
    border-bottom: 1px solid rgb(119, 0, 255)
 }
 
@@ -435,7 +415,6 @@ font-weight: 400 !;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
-  z-index: 999;
 }
 
 .close:hover,
@@ -632,6 +611,7 @@ font-weight: 400 !;
 .hoverinfo {
   padding: 2% 0 0 2%;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   align-items: baseline;
   position: relative;
   top: 80%;
@@ -647,7 +627,7 @@ font-weight: 400 !;
   transition-duration: .5s;
   transition-delay: .4s;
   opacity: 1;
-  color: #7700c7;
+  color: #7700c7 ;
   /* background: #ff0cf31e; */
   background-image: linear-gradient(rgba(53, 53, 53, 0.096), rgba(36, 36, 36, 0.521));
   z-index: 2;
@@ -664,8 +644,14 @@ font-weight: 400 !;
   transition-duration: .5s;
   transition-delay: .4s;
   opacity: 1;
-  color: #7700c7;
+  color: #56006b;
   /* background: #ff0cf31e; */
   background-image: linear-gradient(rgba(53, 53, 53, 0.096), rgba(36, 36, 36, 0.521));
   z-index: 2;
+}
+.moreinfo {
+  padding: 2% 0 100px 2%;
+  font-family: 'Montserrat', sans-serif;
+  color: #f1f1f1;
+  background-color: #181818d7;
 }
