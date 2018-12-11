@@ -97,7 +97,15 @@ body {
   text-align: center;
   color: rgb(243, 243, 243);
   font-family: 'Montserrat', sans-serif;
-
+}
+.profpic {
+	border-radius: 50%;
+	width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  background-color: #7700c7;
 }
 h1 {
   text-transform: uppercase;
@@ -373,7 +381,7 @@ font-weight: 400 !;
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 3; /* Sit on top */
   padding-top: 50px; /* Location of the box */
   left: 0;
   top: 0;
@@ -424,6 +432,7 @@ font-weight: 400 !;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
+  z-index: 999;
 }
 
 .close:hover,
@@ -625,11 +634,10 @@ font-weight: 400 !;
   top: 80%;
 }
 .hovertxt { 
-  display: flex;
   opacity: 0;
   width: 100%;
   height: 100%;
-  position: relative;
+  position: absolute;
   /* top: 50%; */
 }
 .hovertxt:hover {
@@ -640,3 +648,21 @@ font-weight: 400 !;
   /* background: #ff0cf31e; */
   background-image: linear-gradient(rgba(53, 53, 53, 0.096), rgba(36, 36, 36, 0.521));
   z-index: 2;
+}
+.hovertxt1 { 
+  opacity: 0;
+  width: 100%;
+  height: 125%;
+  position: relative;
+  top: -25%;
+  
+}
+.hovertxt1:hover {
+  transition-duration: .5s;
+  transition-delay: .4s;
+  opacity: 1;
+  color: #7700c7;
+  /* background: #ff0cf31e; */
+  background-image: linear-gradient(rgba(53, 53, 53, 0.096), rgba(36, 36, 36, 0.521));
+  z-index: 2;
+}
