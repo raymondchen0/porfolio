@@ -214,6 +214,7 @@ font-weight: 400 !;
   
 }
 .header .navbar-default .navbar-nav>li:hover a{
+  transition: .5s;
   color: rgb(223, 223, 223);
    border-bottom: 1px solid rgb(119, 0, 255)
 }
@@ -364,7 +365,7 @@ font-weight: 400 !;
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 3; /* Sit on top */
+  z-index: 999; /* Sit on top */
   padding-top: 50px; /* Location of the box */
   left: 0;
   top: 0;
@@ -415,6 +416,7 @@ font-weight: 400 !;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
+  z-index: 999;
 }
 
 .close:hover,
