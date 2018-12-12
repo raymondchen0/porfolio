@@ -602,10 +602,23 @@ font-weight: 400 !;
 .linkedin:hover img {
   filter: saturate(100%);
 }
+.resumeico img {
+  filter: saturate(5%);
+  transition-duration: 0.3s;
+  cursor: pointer;
+  max-width: 100px !important;
+  max-height: auto;
+  position: absolute;
+  top: 200%;
+  left: 0%
+}
+.resumeico:hover img {
+  filter: saturate(100%);
+}
 #contacts {
   position: absolute;
   top: 200%;
-  left: 25%;
+  left: 30%;
 }
 /* CSS for hover overlay divs on images */
 .hoverinfo {
