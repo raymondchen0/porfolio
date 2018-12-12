@@ -558,8 +558,8 @@ font-weight: 400 !;
 }
 #contacts {
   width: 50%;
-  
 }
+/* Probably should have repeated myself and instead used 1 class for the effects and only have positioning for the seperate ones */
 .mail img {
   max-width: 100px !important;
   max-height: auto;
@@ -609,7 +609,7 @@ font-weight: 400 !;
 }
 /* CSS for hover overlay divs on images */
 .hoverinfo {
-  padding: 2% 0 0 2%;
+  padding: 2% 2% 0 2%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   align-items: baseline;
@@ -632,6 +632,7 @@ font-weight: 400 !;
   background-image: linear-gradient(rgba(53, 53, 53, 0.096), rgba(36, 36, 36, 0.521));
   z-index: 2;
 }
+/* row 2 of images (positioning issues with using 1 class for both rows) */
 .hovertxt1 { 
   opacity: 0;
   width: 100%;
@@ -644,14 +645,17 @@ font-weight: 400 !;
   transition-duration: .5s;
   transition-delay: .4s;
   opacity: 1;
-  color: #56006b;
+  color: #7700c7;
   /* background: #ff0cf31e; */
   background-image: linear-gradient(rgba(53, 53, 53, 0.096), rgba(36, 36, 36, 0.521));
   z-index: 2;
 }
 .moreinfo {
-  padding: 2% 0 100px 2%;
+  padding: 2% 2% 100px 2%;
   font-family: 'Montserrat', sans-serif;
   color: #f1f1f1;
   background-color: #181818d7;
+  width: 100%;
+  max-height: 63%;
+  z-index: 1;
 }
