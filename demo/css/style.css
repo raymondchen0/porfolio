@@ -384,7 +384,7 @@ font-weight: 400 !;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
+/* #caption {
   margin: auto;
   display: block;
   width: 100%;
@@ -393,7 +393,7 @@ font-weight: 400 !;
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-}
+} */
 
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption { 
